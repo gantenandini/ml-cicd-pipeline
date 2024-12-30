@@ -1,4 +1,10 @@
 # main.py
+import sys
+import os
+
+# Add the project root directory to the Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
 
 import os
 from src.preprocessing import load_data, preprocess_data, split_data
